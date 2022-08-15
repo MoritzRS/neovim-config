@@ -43,6 +43,7 @@ return packer.startup(function(use)
 	-- My plugins here
 	use({"wbthomason/packer.nvim"}) -- Have packer manage itself
   	use({"catppuccin/nvim", as="catppuccin"}) -- Colorscheme
+	use({"tomasiser/vim-code-dark"}) -- Alternative VS-Code theme
 	use({"kyazdani42/nvim-web-devicons"}) -- Icons
 	use({"kyazdani42/nvim-tree.lua"}) -- File Explorer
 	use({"akinsho/bufferline.nvim"}) -- Buffer Tabs
