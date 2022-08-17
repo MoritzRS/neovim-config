@@ -8,16 +8,10 @@ local lspconfig = require("lspconfig")
 
 local default_servers = {
     "cssls",
-    "dotls",
     "html",
     "intelephense",
-    "phpactor",
     "jsonls",
-    "texlab",
-    "sumneko_lua",
-    "marksman",
     "tsserver",
-    "sqlls",
     "svelte",
     "tailwindcss",
 }
