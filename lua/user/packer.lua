@@ -40,39 +40,8 @@ packer.init({
 
 -- Install your plugins here
 return packer.startup(function(use)
-	-- My plugins here
 	use({"wbthomason/packer.nvim"}) -- Have packer manage itself
   	use({"catppuccin/nvim", as="catppuccin"}) -- Colorscheme
-	use({"tomasiser/vim-code-dark"}) -- Alternative VS-Code theme
-	use({"kyazdani42/nvim-web-devicons"}) -- Icons
-	use({"kyazdani42/nvim-tree.lua"}) -- File Explorer
-	use({"akinsho/bufferline.nvim"}) -- Buffer Tabs
-	use({"famiu/bufdelete.nvim"}) -- Buffer delete
-	use({"nvim-telescope/telescope.nvim", requires="nvim-lua/plenary.nvim"}) -- Fuzzy Finder
-	use({"ahmedkhalf/project.nvim"})
-	use({"lewis6991/gitsigns.nvim"}) -- Git
-	use({"goolord/alpha-nvim"}) -- Dashboard
-	use({"akinsho/toggleterm.nvim"}) -- Terminal
-
-	-- cmp
-	use({"hrsh7th/nvim-cmp"}) -- The completion plugin
-	use({"hrsh7th/cmp-buffer"}) -- buffer completions
-	use({"hrsh7th/cmp-path"}) -- path completions
-	use({"saadparwaiz1/cmp_luasnip"}) -- snippet completions
-	use({"hrsh7th/cmp-nvim-lsp"})
-	use({"hrsh7th/cmp-nvim-lua"})
-
-	-- snippets
-	use({ "L3MON4D3/LuaSnip"}) --snippet engine
-	use({ "rafamadriz/friendly-snippets"}) -- a bunch of snippets to use
-
-	-- lsp
-	use({"neovim/nvim-lspconfig"}) -- enable LSP
-	use({"williamboman/nvim-lsp-installer"}) -- simple to use language server installer
-	use({"jose-elias-alvarez/null-ls.nvim"}) -- for formatters and linters
-
-	-- treesitter
-	use({"nvim-treesitter/nvim-treesitter"})
 
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
