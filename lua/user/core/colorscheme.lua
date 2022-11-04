@@ -3,7 +3,6 @@ if not status_ok then
   return
 end
 
--- Flavours: latte, frappe, macchiato, mocha
-vim.g.catppuccin_flavour = "macchiato"
+vim.g.catppuccin_flavour = "macchiato" -- latte, frappe, macchiato, mocha
 catppuccin.setup()
 vim.cmd [[colorscheme catppuccin]]
