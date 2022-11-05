@@ -8,6 +8,10 @@ vim.api.nvim_set_keymap("n", "<C-l>", "<cmd>Telescope buffers<CR>", opts)
 -- NvimTree
 vim.api.nvim_set_keymap("n", "<C-b>", "<cmd>NvimTreeToggle<CR>", opts)
 
+-- Toggleterm
+vim.api.nvim_set_keymap("n", "<C-T>", "<cmd>ToggleTerm<CR>", opts)
+vim.api.nvim_set_keymap("t", "<C-T>", [[<C-\><C-N><cmd>ToggleTerm<CR>]], opts)
+
 -- code actions
 vim.api.nvim_set_keymap("n", "<A-Enter>", "<cmd>lua vim.lsp.buf.code_action()<CR>", opts)
 

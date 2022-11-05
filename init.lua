@@ -8,6 +8,7 @@ require("user.core.autocommands")
 
 require("user.plugins.comment")
 require("user.plugins.nvim-tree")
+require("user.plugins.toggleterm")
 require("user.plugins.lualine")
 require("user.plugins.bufferline")
 require("user.plugins.telescope")
