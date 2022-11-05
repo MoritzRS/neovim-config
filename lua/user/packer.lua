@@ -43,11 +43,11 @@ return packer.startup(function(use)
 	use("kyazdani42/nvim-web-devicons")
 
 	-- statusline
+	use({'akinsho/bufferline.nvim', tag = "v3.*"})
 	use("nvim-lualine/lualine.nvim")
 
 	-- fuzzy finding w/ telescope
 	use({ "nvim-telescope/telescope-fzf-native.nvim", run = "make" }) -- dependency for better sorting performance
-	use({ "nvim-telescope/telescope-file-browser.nvim" }) -- nerdtree alternative
 	use({ "nvim-telescope/telescope.nvim", branch = "0.1.x" }) -- fuzzy finder
 
     -- commenting code
