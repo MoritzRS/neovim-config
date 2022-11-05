@@ -6,7 +6,7 @@ vim.opt.number = true -- shows absolute line number on cursor line (when relativ
 vim.opt.tabstop = 4 -- 2 spaces for tabs (prettier default)
 vim.opt.shiftwidth = 4 -- 2 spaces for indent width
 vim.opt.expandtab = false -- dont expand tab to spaces
-vim.opt.autoindent = true -- copy indent from current line when starting new one
+vim.opt.autoindent = false -- copy indent from current line when starting new one
 
 -- line wrapping
 vim.opt.wrap = false -- disable line wrapping

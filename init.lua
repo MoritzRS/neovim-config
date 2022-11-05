@@ -2,6 +2,7 @@ require("user.packer")
 
 require("user.core.options")
 require("user.core.colorscheme")
+require("user.core.autocommands")
 -- require("user.core.keymaps")
 
 require("user.plugins.comment")
