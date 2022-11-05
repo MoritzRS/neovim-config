@@ -3,10 +3,8 @@ local opts = { noremap = true, silent = true }
 
 -- Telescope Shortcuts
 vim.api.nvim_set_keymap("n", "<C-p>", "<cmd>Telescope find_files<CR>", opts)
-
--- NvimTree
-vim.api.nvim_set_keymap("n", "<C-b>", "<cmd>NvimTreeToggle<CR>", opts)
-
+vim.api.nvim_set_keymap("n", "<C-l>", "<cmd>Telescope buffers<CR>", opts)
+vim.api.nvim_set_keymap("n", "<C-b>", "<cmd>Telescope file_browser<CR>", opts)
 
 
 -- code actions
