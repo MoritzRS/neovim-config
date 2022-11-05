@@ -28,6 +28,7 @@ mason_lspconfig.setup({
 		"tailwindcss",
         "svelte",
         "volar",
+		"intelephense",
 		"sumneko_lua",
 	},
 	-- auto-install configured servers (with lspconfig)

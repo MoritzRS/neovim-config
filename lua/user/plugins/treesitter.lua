@@ -25,6 +25,7 @@ treesitter.setup({
 		"markdown",
 		"svelte",
         "vue",
+		"php",
 		"bash",
 		"lua",
 		"vim",
