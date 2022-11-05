@@ -18,6 +18,13 @@ vim.api.nvim_set_keymap("i", "<A-Up>", "<cmd>m .-2<CR>", opts)
 vim.api.nvim_set_keymap("n", "<A-Down>", "<cmd>m .+1<CR>", opts)
 vim.api.nvim_set_keymap("i", "<A-Down>", "<cmd>m .+1<CR>", opts)
 
+-- duplicate lines
+vim.api.nvim_set_keymap("n", "<S-A-Down>", "yyp", opts)
+vim.api.nvim_set_keymap("i", "<S-A-Down>", "<Esc>yypi", opts)
+
+vim.api.nvim_set_keymap("n", "<S-A-Up>", "yyP", opts)
+vim.api.nvim_set_keymap("i", "<S-A-Up>", "<Esc>yyPi", opts)
+
 -- quicksave
 vim.api.nvim_set_keymap("n", "<C-S>", "<cmd>update<CR>", opts)
 vim.api.nvim_set_keymap("v", "<C-S>", "<Esc><cmd>update<CR>", opts)
