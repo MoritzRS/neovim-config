@@ -4,7 +4,6 @@ require("user.core.options")
 require("user.core.colorscheme")
 require("user.core.keymaps")
 require("user.core.autocommands")
--- require("user.core.keymaps")
 
 require("user.plugins.comment")
 require("user.plugins.nvim-tree")
