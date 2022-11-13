@@ -1,0 +1,43 @@
+{
+	"svelte": {
+		"prefix": "svelte",
+		"description": "Default Svelte Layout",
+		"body": [
+			"<script lang=\"ts\">",
+			"</script>",
+			"",
+			"<template>",
+			"\t$0",
+			"</template>",
+			"",
+			"<style lang=\"scss\">",
+			"</style>\n"
+		]
+	},
+	"if": {
+		"prefix": "if",
+		"body": [
+			"{#if ${1:condition}}",
+			"\t${2: <!-- content here -->}",
+			"{/if}"
+		],
+		"description": "if block"
+	},
+	"else": {
+		"prefix": "else",
+		"body": [
+			"{:else}",
+			"\t${1: <!-- else content here -->}"
+		],
+		"description": "else block"
+	},
+	"each": {
+		"prefix": "each",
+		"body": [
+			"{#each ${1:items} as ${2:item}}",
+			"\t${3: <!-- content here -->}",
+			"{/each}"
+		],
+		"description": "each block"
+	}
+}
