@@ -30,6 +30,8 @@ treesitter.setup({
 		"lua",
 		"vim",
 		"gitignore",
+		"gdscript",
+		"godot_resource"
 	},
 	-- auto install above language parsers
 	auto_install = true,
